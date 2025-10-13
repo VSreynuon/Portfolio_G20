@@ -3,3 +3,13 @@ body{
     font-family: "Poppins";
     line-height: 1.6;
 }
+:root{
+    --bg-brue:#0B1D51;
+    --bg-white:#FFFCFB;
+    --bg-pink:#FFD8D8;
+    --bg-red: #ED3500;
+    --bg-black:#0F0E0E;
+    --bg-gray:#F5F5F0;
+    --bg-green:#118B50;
+    --bg-yello:#FFC145;
+}
