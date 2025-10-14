@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-    font-family: "Poppins";
-    line-height: 1.6;
-}
+
+/* <<<<<<< HEAD
+======= */
 :root{
     --bg-brue:#0B1D51;
     --bg-white:#FFFCFB;
@@ -13,3 +11,43 @@ body{
     --bg-green:#118B50;
     --bg-yello:#FFC145;
 }
+.navbar{
+    background-color: var(--bg-brue);
+}
+.nav-link{
+    color: var(--bg-white) !important;
+}
+.nav-link:hover{
+    text-decoration-color: var(--bg-red) !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+}
+.text-color{
+    color: var(--bg-brue);
+}
+.btn{
+    color: var(--bg-white) !important;
+    background-color: var(--bg-brue) !important;
+}
+.icon{
+    color: var(--bg-brue) !important;
+}
+.card{
+    width: 400px;
+}
+.shap{
+    background-color: var(--bg-pink) !important;
+    animation: Bob 2s ease-in-out infinite alternate;
+}
+@keyframes Bob {
+    from{
+        
+    }
+    to
+    {
+
+    }
+    
+}
+>>>>>>> b7d1c1dfa807207bbc753e6277ffed75116ff6d3
