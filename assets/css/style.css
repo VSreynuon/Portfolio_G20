@@ -13,3 +13,42 @@ body{
     --bg-green:#118B50;
     --bg-yello:#FFC145;
 }
+.navbar{
+    background-color: var(--bg-brue);
+}
+.nav-link{
+    color: var(--bg-white) !important;
+}
+.nav-link:hover{
+    text-decoration-color: var(--bg-red) !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+}
+.text-color{
+    color: var(--bg-brue);
+}
+.btn{
+    color: var(--bg-white) !important;
+    background-color: var(--bg-brue) !important;
+}
+.icon{
+    color: var(--bg-brue) !important;
+}
+/* .card{
+    width: 400px;
+} */
+.shap{
+    background-color: var(--bg-pink) !important;
+    animation: Bob 2s ease-in-out infinite alternate;
+}
+@keyframes Bob {
+    from{
+        
+    }
+    to
+    {
+
+    }
+    
+}
