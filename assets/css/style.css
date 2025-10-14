@@ -35,9 +35,9 @@ body{
 .icon{
     color: var(--bg-brue) !important;
 }
-/* .card{
+.card{
     width: 400px;
-} */
+}
 .shap{
     background-color: var(--bg-pink) !important;
     animation: Bob 2s ease-in-out infinite alternate;
