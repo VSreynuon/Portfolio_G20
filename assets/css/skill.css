@@ -9,21 +9,23 @@
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+.hvr-grow-shadow:hover,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-:root{
-    --bg-brue:#0B1D51;
-    --bg-white:#FFFCFB;
-    --bg-pink:#FFD8D8;
-    --bg-red: #ED3500;
-    --bg-black:#0F0E0E;
-    --bg-gray:#F5F5F0;
-    --bg-green:#118B50;
-    --bg-yello:#FFC145;
+:root {
+  --bg-brue: #0b1d51;
+  --bg-white: #fffcfb;
+  --bg-pink: #ffd8d8;
+  --bg-red: #ed3500;
+  --bg-black: #0f0e0e;
+  --bg-gray: #f5f5f0;
+  --bg-green: #118b50;
+  --bg-yello: #ffc145;
 }
 .font-size {
-    font-size: 18px;
+  font-size: 18px;
 }
