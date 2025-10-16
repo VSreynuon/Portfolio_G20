@@ -1,65 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/Bootstrap/bootstrap.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-  </head>
-
-  <body>
-    <header></header>
-    <main>
-      <section>
-        <div class="container">
-          <h5>Home</h5>
-        </div>
-      </section>
-      <section class="py-5 bg-light">
-        <div class="container">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-lg-4">
-              <div
-                class="card card-hover rounded-5 overflow-hidden border-0 mb-5"
-              >
-                <img
-                  class="card-img-top shadow overflow-hidden"
-                  src="https://ant-portfolio-miniproject.vercel.app/asset/img/image-removebg-preview.png"
-                  alt="Title"
-                />
-                <style>
-                  .card-hover:hover {
-                    transition: 0.1s;
-                  }
-                  .card-hover:hover {
-                    box-shadow: 0 4px 10px rgba(70, 68, 68, 0.3);
-                    transform: translateY(-4px);
-                  }
-                </style>
-              </div>
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/skill.css">
     <link rel="stylesheet" href="assets/css/project.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/Bootstrap/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top z-3 p-2">
             <div class="container">
-                <a class="navbar-brand fs-4 fw-bold text-white" href="#">Portfolio</a>
+                <a class="navbar-brand fs-3 fw-bold text-white" href="#"><i
+                        class="bi bi-mortarboard-fill display-5 p-3"></i>Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -68,19 +30,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link fs-5  active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link fs-5  active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="#">About</a>
+                            <a class="nav-link fs-5" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="#">Skill</a>
+                            <a class="nav-link fs-5" href="#skill">Skill</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="#">Project</a>
+                            <a class="nav-link fs-5" href="#project">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="#">Contact</a>
+                            <a class="nav-link fs-5" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -88,66 +50,128 @@
         </nav>
     </header>
     <main>
-        <section class="mt-5">
+        <section id="home" class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-5">
-                        <span class="badge text-bg-secondary">Marisa John</span>
-                        <h5 class="fw-bold">HAY! I'M Marisa <br>
-                        <span class="text-color">I'm Full Stack Developer</span></h5>
-                        <p class="fw-bold text-muted">This portfolio presents my learning journey in web development. It includes my practice projects, coursework, and personal experiments with HTML, CSS, Bootstrap and other tools as I continue to grow my skills in front-end development.</p>
+                    <div class="col-7">
+                        <span class="badge text-bg-secondary fs-5 letter-spacing" style="margin-top: 10%;">keobell John</span>
+                        <h5 class="fw-bold py-2 fs-2">HAY! I'M keobell</h5>
+                        <h5 class=" typing-loop fw-bold fs-2 text-blue ">I'm Full Stack Developer</h5>
+                        <p class="fs-5">This portfolio presents my learning journey in web development. It
+                            includes my practice projects, coursework, and personal experiments with HTML, CSS,
+                            Bootstrap and other tools as I continue to grow my skills in front-end development.</p>
+                        <div style="width: 90%;">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <h4 class="fs-1 fw-medium text-blue">5<i
+                                                    class="bi bi-plus fs-1 fw-medium"></i></h4>
+                                            <p class="text-muted fw-bold">Years Experience</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <h4 class="fs-1 fw-medium text-blue">100<i
+                                                    class="bi bi-plus fs-1 fw-medium"></i></h4>
+                                            <p class="text-muted fw-bold">Projects Completed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <h4 class="fs-1 fw-medium text-blue">50<i
+                                                    class="bi bi-plus fs-1 fw-medium"></i></h4>
+                                            <p class="text-muted fw-bold">Happy Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="d-flex">
-                            <button class="btn fw-medium rounded-pill">GET IN TOUCH <i class="bi bi-arrow-right"></i></button>
-                            <i class="bi bi-facebook fs-3 ms-3 icon"></i>
-                            <i class="bi bi-linkedin fs-3 ms-2 icon"></i>
+                            <button class="btn fs-5 px-2 py-3 bg-gray">View My Work</button>
+                            <button class="btn fs-5 px-3 ms-2 bg-gray">Let's Contact</button>
+                        </div>
+                        <div class="d-flex py-4">
+                            <button class="btn bg-blue text-white fw-medium rounded-pill">GET IN TOUCH <i
+                                    class="bi bi-arrow-right"></i></button>
+                            <a href="#"><i class="bi bi-facebook fs-3 ms-3 icon"></i></a>
+                            <a href="#"><i class="bi bi-linkedin fs-3 ms-2 icon"></i></a>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-5">
                         <div class="card border-0">
-                            <div class="shap">
-                                <img src="https://ant-portfolio-miniproject.vercel.app/asset/img/image-removebg-preview.png" alt="profile" class="" width="100%">
+                            <div class="card-body"style="margin-top: 10%;">
+                                <div class="shap pt-5 ms-auto">
+                                    <img src="https://ant-portfolio-miniproject.vercel.app/asset/img/image-removebg-preview.png"
+                                        alt="profile" width="100%">
+                                </div>
+                                <div class="card-body">
+                                    <div class="box-animation ms-auto fs-1">
+                                        <i class="bi bi-box"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7">
-              <div
-                class="p-5 rounded-2"
-                style="
-                  background: linear-gradient(
-                    to right,
-                    rgba(138, 174, 157, 0.777),
-                    rgba(127, 127, 194, 0.262)
-                  );
-                "
-              >
-                <h1 class="text-center text-primary fs-1">About me</h1>
-                <p class="fst-italic text-black-50 text-center mb-5 pt-3">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laudantium maxime cupiditate quod similique quaerat veritatis
-                  omnis expedita corporis et alias?
-                </p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-center">
-              <div class="col-lg-3">
-              <div
-                class="fs-1 px-4 py-2 fw-bold rounded-5 text-center"
-                style="background-color: rgb(118, 150, 255)"
-              >
-                300+
-                <p class="fs-5">Projects</p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div
-                class="fs-1 px-4 py-2 fw-bold rounded-5 text-center ms-3 me-3"
-                style="background-color: rgb(118, 150, 255)"
-              >
-                200+
-                <p class="fs-5">Customer happy</p>
-              </div>
+        </section>
+
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-4">
+                        <div class="card card-hover rounded-5 overflow-hidden border-0 mb-5">
+                            <img class="card-img-top shadow overflow-hidden"
+                                src="https://ant-portfolio-miniproject.vercel.app/asset/img/image-removebg-preview.png"
+                                alt="Title" />
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-5 rounded-2"
+                            style="background: linear-gradient(to right,rgba(138, 174, 157, 0.777),rgba(127, 127, 194, 0.262));">
+                            <h1 class="text-center text-primary fs-1">About me</h1>
+                            <p class="fst-italic text-black-50 text-center mb-5 pt-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Laudantium maxime cupiditate quod similique quaerat veritatis
+                                omnis expedita corporis et alias?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-3">
+                            <div class="fs-1 px-4 py-2 fw-bold rounded-5 text-center"
+                                style="background-color: rgb(118, 150, 255)">
+                                300+
+                                <p class="fs-5">Projects</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="fs-1 px-4 py-2 fw-bold rounded-5 text-center ms-3 me-3"
+                                style="background-color: rgb(118, 150, 255)">
+                                200+
+                                <p class="fs-5">Customer happy</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="fs-1 px-4 py-2 fw-bold rounded-5 text-center"
+                                style="background-color: rgb(118, 150, 255)">
+                                5+
+                                <p class="fs-5">Years of experians</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <section id="skill" class="py-5">
+            <div class="container">
+                <h5 class="text-center py-5 fs-1 fw-bold">Skills</h5>
                 <div class="row g-2">
                     <div class="col-12 col-lg-8">
                         <div class="card border-0">
@@ -164,7 +188,8 @@
                                             <div class="col-12">
                                                 <div class="card border-0 p-3 ">
                                                     <div class="card-body p-0 d-flex justify-content-between">
-                                                        <p class="card-text mb-1 ">HTML/CSS</p>
+                                                        <p class="card-text mb-1 ">HTML/CSS
+                                                        </p>
                                                         <p class="card-text mb-1 ">99%</p>
                                                     </div>
                                                     <div class="progress  " role="progressbar"
@@ -179,7 +204,8 @@
                                             <div class="col-12">
                                                 <div class="card border-0 p-3 ">
                                                     <div class="card-body p-0 d-flex justify-content-between">
-                                                        <p class="card-text mb-1 ">JavaScript</p>
+                                                        <p class="card-text mb-1 ">
+                                                            JavaScript</p>
                                                         <p class="card-text mb-1 ">99%</p>
                                                     </div>
                                                     <div class="progress  " role="progressbar"
@@ -194,7 +220,8 @@
                                             <div class="col-12">
                                                 <div class="card p-3 border-0">
                                                     <div class="card-body p-0 d-flex justify-content-between">
-                                                        <p class="card-text mb-1 ">Vue.js</p>
+                                                        <p class="card-text mb-1 ">Vue.js
+                                                        </p>
                                                         <p class="card-text  mb-1">99%</p>
                                                     </div>
                                                     <div class="progress  " role="progressbar"
@@ -236,7 +263,8 @@
                                             <div class="col-12">
                                                 <div class="card border-0 p-3 ">
                                                     <div class="card-body p-0 d-flex justify-content-between">
-                                                        <p class="card-text mb-1 ">Laravel</p>
+                                                        <p class="card-text mb-1 ">Laravel
+                                                        </p>
                                                         <p class="card-text mb-1 ">99%</p>
                                                     </div>
                                                     <div class="progress  " role="progressbar"
@@ -293,7 +321,8 @@
                                             <div class="col-12">
                                                 <div class="card border-0 p-3 ">
                                                     <div class="card-body p-0 d-flex justify-content-between">
-                                                        <p class="card-text mb-1 ">Photoshop</p>
+                                                        <p class="card-text mb-1 ">Photoshop
+                                                        </p>
                                                         <p class="card-text mb-1 ">99%</p>
                                                     </div>
                                                     <div class="progress  " role="progressbar"
@@ -308,7 +337,8 @@
                                             <div class="col-12">
                                                 <div class="card border-0 p-3 ">
                                                     <div class="card-body p-0 d-flex justify-content-between">
-                                                        <p class="card-text mb-1 ">Illustrator</p>
+                                                        <p class="card-text mb-1 ">
+                                                            Illustrator</p>
                                                         <p class="card-text  mb-1">99%</p>
                                                     </div>
                                                     <div class="progress  " role="progressbar"
@@ -350,7 +380,8 @@
                                             <div class="col-12">
                                                 <div class="card border-0 p-3 ">
                                                     <div class="card-body p-0 d-flex justify-content-between">
-                                                        <p class="card-text mb-1 ">Docker</p>
+                                                        <p class="card-text mb-1 ">Docker
+                                                        </p>
                                                         <p class="card-text mb-1 ">99%</p>
                                                     </div>
                                                     <div class="progress  " role="progressbar"
@@ -380,7 +411,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -390,9 +420,12 @@
                                 <div class="col-12">
                                     <div class="card border-success bg-success-subtle shadow-sm rounded-5">
                                         <div class="card-body">
-                                            <h6 class="card-title ">Professional Expertise</h6>
-                                            <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur
-                                                adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
+                                            <h6 class="card-title ">Professional Expertise
+                                            </h6>
+                                            <p class="card-text text-black-50">Lorem ipsum
+                                                dolor sit amet, consectetur
+                                                adipiscing elit. Sed do eiusmod tempor
+                                                incididunt ut labore et dolore
                                                 magna aliqua. Ut enim ad minim veniam.</p>
                                         </div>
                                     </div>
@@ -408,8 +441,10 @@
                                             </div>
                                             <div class="col-9">
                                                 <div class="card border-0">
-                                                    <h6 class="card-title mb-0 fs-6 text-success">5+</h6>
-                                                    <p class="card-text mb-0 fs-6 text-black-50">Years Experience</p>
+                                                    <h6 class="card-title mb-0 fs-6 text-success">
+                                                        5+</h6>
+                                                    <p class="card-text mb-0 fs-6 text-black-50">
+                                                        Years Experience</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -426,8 +461,10 @@
                                             </div>
                                             <div class="col-9">
                                                 <div class="card border-0">
-                                                    <h6 class="card-title mb-0 fs-6 text-success">50+</h6>
-                                                    <p class="card-text mb-0 fs-6 text-black-50">Project Completed</p>
+                                                    <h6 class="card-title mb-0 fs-6 text-success">
+                                                        50+</h6>
+                                                    <p class="card-text mb-0 fs-6 text-black-50">
+                                                        Project Completed</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -444,8 +481,10 @@
                                             </div>
                                             <div class="col-9">
                                                 <div class="card border-0">
-                                                    <h6 class="card-title mb-0 fs-6 text-success">30+</h6>
-                                                    <p class="card-text mb-0 fs-6 text-black-50">Happy Clients</p>
+                                                    <h6 class="card-title mb-0 fs-6 text-success">
+                                                        30+</h6>
+                                                    <p class="card-text mb-0 fs-6 text-black-50">
+                                                        Happy Clients</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -453,27 +492,32 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="card rounded-5 p-2 border-success-subtle text-center pb-4">
-                                        <h5 class="card-text mb-1 fs-5 text-center">Certifications</h5>
+                                        <h5 class="card-text mb-1 fs-5 text-center">
+                                            Certifications</h5>
                                         <div class="row g-4">
                                             <div class="col-6">
                                                 <div class="card rounded-5 p-1 border-success bg-success  ">
-                                                    <p class="card-text mb-0 font-size text-light  ">AWS Certified</p>
+                                                    <p class="card-text mb-0 font-size text-light  ">
+                                                        AWS Certified</p>
                                                 </div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="card rounded-5 p-1 border-success bg-success">
-                                                    <p class="card-text mb-0 font-size text-light  ">Vue.js Developer
+                                                    <p class="card-text mb-0 font-size text-light  ">
+                                                        Vue.js Developer
                                                     </p>
                                                 </div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="card rounded-5 p-1 border-success bg-success">
-                                                    <p class="card-text mb-0 font-size text-light  ">Laravel Expert</p>
+                                                    <p class="card-text mb-0 font-size text-light  ">
+                                                        Laravel Expert</p>
                                                 </div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="card rounded-5 p-1 border-success bg-success">
-                                                    <p class="card-text mb-0 font-size text-light  ">UI/UX Design</p>
+                                                    <p class="card-text mb-0 font-size text-light  ">
+                                                        UI/UX Design</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -484,19 +528,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
-              <div
-                class="fs-1 px-4 py-2 fw-bold rounded-5 text-center"
-                style="background-color: rgb(118, 150, 255)"
-              >
-                5+
-                <p class="fs-5">Years of experians</p>
-              </div>
         </section>
-        <section class="project">
+        <section id="project" class="py-5">
             <div class="container">
-                <h2 class="text-center fw-bold  ">Project</h2>
-                <p class="text-center">Laboriosam, beatae? Minima deleniti expedita ea voluptatem totam! Laboriosam
+                </a>
+                <h2 class="text-center fw-bold ">Project</h2>
+                <p class="text-center">Laboriosam, beatae? Minima deleniti expedita ea
+                    voluptatem totam! Laboriosam
                     odit.</p>
                 <div class="project-list text-center">
                     <button href="#" class="btn btn-primary">Go somewhere</button>
@@ -525,7 +563,8 @@
                                 <h6 class="text-primary">WEB DESIGN</h6>
                                 <h5 class="card-text fw-bold">Design Template Start Bootstrap
                                 </h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the
+                                    card title and make up the
                                     bulk of the card’s content.</p>
                             </div>
                         </div>
@@ -549,7 +588,8 @@
                                 <h6 class="text-primary">WEB DESIGN</h6>
                                 <h5 class="card-text fw-bold">Design Light/Dark Mode Page
                                 </h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the
+                                    card title and make up the
                                     bulk of the card’s content.</p>
                             </div>
                         </div>
@@ -573,14 +613,15 @@
                                 <h6 class="text-primary">WEB DESIGN</h6>
                                 <h5 class="card-text fw-bold">Design Kalip Shop Page
                                 </h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the
+                                    card title and make up the
                                     bulk of the card’s content.</p>
                             </div>
                         </div>
                     </div>
-                     <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="card border-0 shadow-lg rounded-4 animate__animated animate__fadeInUp mt-5">
-                            <div class="card-img"> 
+                            <div class="card-img">
                                 <img src="https://ant-portfolio-miniproject.vercel.app/asset/img/project4.png"
                                     class="card-img-top rounded-4" alt="pic1" height="310px">
                             </div>
@@ -597,7 +638,8 @@
                                 <h6 class="text-primary">WEB DESIGN</h6>
                                 <h5 class="card-text fw-bold">Design Product Page
                                 </h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the
+                                    card title and make up the
                                     bulk of the card’s content.</p>
                             </div>
                         </div>
@@ -621,7 +663,8 @@
                                 <h6 class="text-primary">WEB DESIGN</h6>
                                 <h5 class="card-text fw-bold">Design Ecommerce Moblie App
                                 </h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the
+                                    card title and make up the
                                     bulk of the card’s content.</p>
                             </div>
                         </div>
@@ -645,23 +688,22 @@
                                 <h6 class="text-primary">WEB DESIGN</h6>
                                 <h5 class="card-text fw-bold">Design Sabay News Temple
                                 </h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text">Some quick example text to build on the
+                                    card title and make up the
                                     bulk of the card’s content.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-      
-                   
-                
             </div>
         </section>
-        <section>
+        <section id="contact" class="mt-5">
             <div class="contact-page-wrapper">
                 <div class="container px-3 px-md-4 px-lg-5">
 
                     <div class="text-center py-3 py-md-4 py-lg-5">
-                        <h1 class="contact-main-title fw-bold display-6 display-md-4 display-lg-3 mb-3">Contact</h1>
+                        <h1 class="contact-main-title fw-bold display-6 display-md-4 display-lg-3 mb-3">
+                            Contact</h1>
                         <div class="title-underline mx-auto"></div>
                     </div>
 
@@ -671,8 +713,10 @@
                         <div class="col-12 col-md-12 col-lg-6 mb-3 mb-lg-0">
                             <div class="p-3 p-md-4 p-lg-5">
                                 <h2 class="fw-bold fs-4 fs-md-3 fs-lg-2 mb-3">Get in touch</h2>
-                                <p class="text-muted mb-4">We'd love to hear from you! Whether you have a question,
-                                    feedback, or just want to connect, feel free to reach out to us.</p>
+                                <p class="text-muted mb-4">We'd love to hear from you! Whether
+                                    you have a question,
+                                    feedback, or just want to connect, feel free to reach out to
+                                    us.</p>
 
 
                                 <div class="mb-4">
@@ -683,13 +727,15 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                                 stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z">
+                                                </path>
                                                 <circle cx="12" cy="10" r="3"></circle>
                                             </svg>
                                         </div>
                                         <div>
                                             <h5 class="fw-semibold mb-1">Location</h5>
-                                            <p class="text-muted mb-0 small">Songkat Phnom Penh, Tmey Khan sensok,
+                                            <p class="text-muted mb-0 small">Songkat Phnom Penh,
+                                                Tmey Khan sensok,
                                                 PhnomPenh</p>
                                         </div>
                                     </div>
@@ -701,14 +747,17 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                                 stroke-linecap="round" stroke-linejoin="round">
-                                                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-                                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                                <rect x="2" y="4" width="20" height="16" rx="2">
+                                                </rect>
+                                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7">
+                                                </path>
                                             </svg>
                                         </div>
                                         <div>
                                             <h5 class="fw-semibold mb-1">Email us</h5>
                                             <p class="text-muted mb-0 small">
-                                                Ourportfolio@gmail.com<br>Portfolio@G2Ant.tld</p>
+                                                Ourportfolio@gmail.com<br>Portfolio@G2Ant.tld
+                                            </p>
                                         </div>
                                     </div>
 
@@ -749,8 +798,10 @@
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                                 stroke-linecap="round" stroke-linejoin="round">
                                                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+                                                </path>
+                                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5">
+                                                </line>
                                             </svg>
                                         </a>
                                         <a href="#"
@@ -777,8 +828,10 @@
 
                         <div class="col-12 col-md-12 col-lg-6">
                             <div class="bg-white p-3 p-md-4 p-lg-5 rounded-4 shadow h-100">
-                                <h2 class="fw-bold fs-4 fs-md-3 fs-lg-2 mb-3">Send a message</h2>
-                                <p class="text-muted mb-4">Have a question or want to work together? Fill out the form
+                                <h2 class="fw-bold fs-4 fs-md-3 fs-lg-2 mb-3">Send a message
+                                </h2>
+                                <p class="text-muted mb-4">Have a question or want to work
+                                    together? Fill out the form
                                     below and we'll get back to you as soon as possible.</p>
 
                                 <form>
@@ -831,28 +884,48 @@
                     </div>
                 </div>
             </div>
-
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="container">
-          <h5>Skill</h5>
-        </div>
-      </section>
-      <section>
-        <div class="container">
-          <h5>Project</h5>
-        </div>
-      </section>
-      <section>
-        <div class="container">
-          <h5>Contact</h5>
-        </div>
-      </section>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="bg-blue py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a class="navbar-brand fs-3 fw-bold text-white" href="#"><i
+                            class="bi bi-mortarboard-fill display-5 p-3"></i>Portfolio</a>
+                    <p class="card-text py-4">This portfolio presents my learning journey in web development.</p>
+                </div>
+                <div class="col-2">
+                    <h5 class="fs-4 fw-bold">Link</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#home" class="nav-link">About</a></li>
+                        <li><a href="#home" class="nav-link">Skill</a></li>
+                        <li><a href="#home" class="nav-link">Project</a></li>
+                        <li><a href="#home" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h5 class="fs-4 fw-bold">Follow Us</h5>
+                    <div class="d-flex fs-2">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="ms-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="ms-2"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 class="fs-4 fw-bold">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:portfolio@gmail.com" class="nav-link"><i class="bi bi-envelope-fill"></i>
+                                portfolio@gmail.com</a></li>
+                        <li><a href="tel:+855963022878" class="nav-link"><i class="bi bi-telephone-fill"></i> +855 96 30
+                                22 878</a></li>
+                        <li><a href="#" class="nav-link"><i class="bi bi-geo-alt-fill"></i> Phnom Penh, Cambodia</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 
-    <script src="assets/Bootstrap/bootstrap.bundle.min.js"></script>
-  </body>
 </html>
